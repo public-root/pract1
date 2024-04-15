@@ -1,0 +1,86 @@
+.servives {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 2rem;
+  margin: auto;
+  width: 70rem;
+}
+
+.servives .img1 {
+  width: 30rem;
+}
+
+.servives .img2 {
+  width: 30rem;
+}
+
+.servives .text {
+  width: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 4rem;
+  row-gap: 1rem;
+}
+
+.servives .text h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.servives .text p {
+  width: 30rem;
+}
+
+.servives .text button {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: .5rem;
+  background-color: #b22e61;
+  color: white;
+}
+
+.servives .text button:hover {
+  background-color: white;
+  color: #b22e61;
+}
+
+.servives .list {
+  border-radius: 1rem;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #b22e61;
+}
+
+.servives .service1 {
+  background-color: #4cae8c;
+}
+
+.servives .service2 {
+  background-color: #fac576;
+}
+
+.servives .service3 {
+  background-color: #ff262f;
+}
+/*# sourceMappingURL=LegalServices.css.map */

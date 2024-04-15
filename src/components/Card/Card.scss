@@ -1,0 +1,50 @@
+$mypink: #b22e61;
+$myblack: #212529;
+
+.card{
+    position: relative;
+    width: 16rem;
+    padding-bottom: 1rem;
+    border-radius: .3rem;
+    .bg-img{
+        margin: auto;
+        width: 13rem;
+    }
+    .logo{
+        position: absolute;
+        top: .5rem;
+        left: .5rem;
+    }
+    .line-dot{
+        position: absolute;
+        top: .5rem;
+        left: 14.7rem;
+    }
+    .law{
+        font-size: 65px;
+        font-weight: bolder;
+        color: #3030309e;
+        z-index: 0;
+        letter-spacing: 4px;
+        transform: rotate(91deg);
+        position: absolute;
+        opacity: .1;
+        left: -32px;
+        line-height: 0;
+        top: 156px;
+    }
+    h2{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .card-text{
+        margin: auto;
+        color: white;
+        font-size:1.2rem;
+        text-align: center;
+    }
+}
+
+

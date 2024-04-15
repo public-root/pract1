@@ -1,0 +1,36 @@
+.accordion {
+  margin: auto;
+  width: 70rem;
+}
+
+.accordion ExpandMoreIcon {
+  color: #b22e61;
+}
+
+.summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1rem;
+  width: 60rem;
+  font-size: 1.1rem;
+  color: gray;
+}
+
+.summary ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1rem;
+  padding-left: 2rem;
+  list-style-type: lower-latin;
+}
+/*# sourceMappingURL=Accord.css.map */

@@ -1,0 +1,56 @@
+.about {
+  margin: auto;
+  width: 75rem;
+  background: url("../../assets/line.svg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 2rem;
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #b22e61;
+}
+
+.about h1 ::after {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: bold;
+  letter-spacing: 13px;
+  font-size: 113px;
+  color: #3030300d;
+  content: "ABOUT";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: -29px;
+  bottom: 0;
+}
+
+.about .partition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.about .partition .p-text {
+  width: 38rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=About.css.map */

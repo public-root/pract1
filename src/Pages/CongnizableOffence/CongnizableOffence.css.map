@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,SAAS,CAAA;EACL,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,OAAe;EACtB,KAAK,EAAE,KAAK;CAQf;;AAbD,AAMI,SANK,CAML,WAAW,CAAA;EACP,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,IAAI;CAIpB;;AAZL,AASQ,SATC,CAML,WAAW,CAGP,EAAE,CAAA;EACE,eAAe,EAAE,OAAO;CAC3B",
+    "sources": [
+        "CongnizableOffence.scss"
+    ],
+    "names": [],
+    "file": "CongnizableOffence.css"
+}

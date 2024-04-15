@@ -1,0 +1,49 @@
+$mypink: #b22e61;
+$myblack: #212529;
+
+
+.topics{
+    margin-top: 1rem;
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .heading{
+            font-size: 2rem;
+            color: $mypink;
+            font-weight: 600;
+        }
+        p{
+            width: 30rem;
+            text-align: center;
+            font-size: 1.1rem;
+            color: gray;
+        }
+    }
+
+    .home-div-kylr{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        justify-content: space-around;
+        padding: 5rem;
+        padding-top: 3rem;
+        .row-1,.row-2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .button-5{
+            background: white;
+            width: 10rem;
+            border: 1px solid $mypink;
+            margin: auto;
+            border-radius: .5rem;
+            padding: .5rem;
+            &:hover {
+                color: white;
+                background-color: $mypink;
+            }
+        }
+    }
+}

@@ -1,0 +1,106 @@
+.nav-main {
+  border: 1px solid #b22e61;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 15rem;
+          column-gap: 15rem;
+  background: url("../../assets/line.svg");
+}
+
+.nav-main .nav-logo {
+  width: 9rem;
+}
+
+.nav-main .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
+}
+
+.nav-main .nav-list a {
+  font-weight: 700;
+  color: #b22e61;
+  font-size: .9rem;
+  -webkit-transition: background-color .5s ease , color .5s ease;
+  transition: background-color .5s ease , color .5s ease;
+}
+
+.nav-main .nav-list a:hover {
+  color: black;
+}
+
+.nav-main .nav-list .nav-list-3, .nav-main .nav-list .nav-list-4 {
+  border: 1px solid #b22e61;
+  padding: .5rem;
+  border-radius: 3rem;
+}
+
+.nav-main .nav-list .nav-list-3:hover .submenu,
+.nav-main .nav-list .nav-list-3 .submenu:hover {
+  display: block;
+}
+
+.nav-main .nav-list .submenu {
+  z-index: 2;
+  position: absolute;
+  color: #b22e61;
+  font-weight: 600;
+  display: none;
+  margin-left: -17rem;
+  border-radius: 2rem;
+  top: 3.8rem;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.nav-main .nav-list .submenu .inner-submenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 47rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  background-color: white;
+}
+
+.nav-main .nav-list .submenu .inner-submenu .dropdown {
+  width: 15rem;
+}
+
+.nav-main .nav-list .submenu .inner-submenu .dropdown label {
+  font-weight: 700;
+  font-size: .9rem;
+}
+
+.nav-main .nav-list .submenu .inner-submenu .dropdown label a {
+  color: #b22e61;
+  font-weight: 700;
+}
+
+.nav-main .nav-list .submenu .inner-submenu .dropdown a {
+  color: grey;
+  font-weight: 300;
+}
+
+.nav-main .nav-list .submenu .inner-submenu .dropdown a:hover {
+  color: #b22e61;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=Navbar.css.map */

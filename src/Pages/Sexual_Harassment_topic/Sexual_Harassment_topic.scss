@@ -1,0 +1,23 @@
+$mypink: #b22e61;
+$myblack: #212529;
+
+
+.rape-hero{
+    position: relative;
+    background-color: #f8f9fa!important;
+    .hero-bg{
+        width: 100%;
+        height: 25rem;
+        object-fit: cover;
+    }
+    .heading{
+        position: absolute;
+        top: 10rem;
+        left: 10rem;
+        h1{
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: $mypink;
+        }
+    }
+}

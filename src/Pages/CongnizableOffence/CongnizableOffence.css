@@ -1,0 +1,17 @@
+.list-div {
+  margin: auto;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  color: #4b4b4b;
+  width: 70rem;
+}
+
+.list-div .order-list {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.list-div .order-list ol {
+  list-style-type: decimal;
+}
+/*# sourceMappingURL=CongnizableOffence.css.map */

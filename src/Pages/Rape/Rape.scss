@@ -1,0 +1,122 @@
+$mypink: #b22e61;
+$myblack: #212529;
+
+.rape-hero{
+    position: relative;
+    background-color: #f8f9fa!important;
+    .hero-bg{
+        width: 100%;
+        height: 25rem;
+        object-fit: cover;
+    }
+    .heading{
+        position: absolute;
+        top: 10rem;
+        left: 10rem;
+        h1{
+            font-size: 3rem;
+            font-weight: 700;
+            color: $mypink;
+        }
+    }
+}
+#panel1-header{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.imp-points{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    align-items: center;
+    margin-top: 3rem;
+
+
+    .imp-border{
+        border: 1px solid $mypink;
+        padding: 2rem;
+    }
+
+    // width: 50rem;
+    h1{
+        font-size: 2rem;
+        text-align: center;
+        color: $mypink;
+        margin-bottom: 1rem;
+    }
+    .points{
+        width: 60rem;
+        li{
+            font-size: 1.2rem;
+            color: gray;
+        }
+    }
+
+}
+.accordian{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+
+}
+
+.consent{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.head{
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: $mypink;
+    margin-left: 7rem;
+    display: block;
+}
+
+.punishment{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.home-plt{
+    display: flex;
+    flex-direction: row;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    background-color: #ec428c17;
+    .plt-1{
+        width: 40rem;
+    }
+    .plt-2{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        row-gap: 1rem;
+        img{
+            width: 25rem;
+        }
+        .button-6{
+            border: 1px solid $mypink;
+            width: 8rem;
+            padding: .5rem;
+            border-radius: .5rem;
+            &:hover{
+                background-color: $mypink;
+                color: white;
+            }
+        }
+    }
+}
+

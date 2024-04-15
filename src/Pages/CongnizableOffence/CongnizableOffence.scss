@@ -1,0 +1,17 @@
+$mypink: #b22e61;
+$myblack: #212529;
+
+.list-div{
+    margin: auto;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    color: rgb(75, 75, 75);
+    width: 70rem;
+    .order-list{
+        margin-top: 2rem;
+        margin-left: 2rem;
+        ol{
+            list-style-type: decimal;
+        }
+    }
+}

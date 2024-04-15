@@ -1,0 +1,61 @@
+$mypink: #b22e61;
+$myblack: #212529;
+
+.servives{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    margin: auto;
+    width: 70rem;
+
+    .img1{
+        width: 30rem;
+    }
+    .img2{
+        width: 30rem;
+    }
+    .text{
+        width: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 4rem;
+        row-gap: 1rem;
+        h1{
+            font-size: 1.7rem;
+            font-weight: 600;
+        }
+        p{
+            width: 30rem;
+        }
+        button{
+            width: 10rem;
+            height: 2.5rem;
+            border-radius: .5rem;
+            background-color: $mypink;
+            color: white;
+            &:hover{
+                background-color: white;
+                color: $mypink;
+            }
+        }
+    }
+    .list{
+        border-radius: 1rem;
+        margin-top: 2rem;
+        display: flex;
+        background-color: #b22e61;
+    }
+
+    .service1{
+        background-color: #4cae8c;
+    }
+    .service2{
+        background-color: #fac576;
+    }
+    .service3{
+        background-color: #ff262f;
+    }
+}

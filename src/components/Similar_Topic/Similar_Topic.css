@@ -1,0 +1,60 @@
+.similar-topic {
+  margin-bottom: 2rem;
+}
+
+.similar-topic .heading {
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #b22e61;
+  text-align: center;
+}
+
+.similar-topic .topics-1, .similar-topic .topics-2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 3rem;
+          column-gap: 3rem;
+  margin-top: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.similar-topic .topics-1 p, .similar-topic .topics-2 p {
+  text-align: center;
+  height: 6.5rem;
+  border: 1px solid #212529;
+  width: 13rem;
+  border-radius: .5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #b22e61;
+  color: white;
+}
+
+.similar-topic .topics-1 p a, .similar-topic .topics-2 p a {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.similar-topic .topics-1 p:hover, .similar-topic .topics-2 p:hover {
+  color: #b22e61;
+  background: white;
+}
+/*# sourceMappingURL=Similar_Topic.css.map */

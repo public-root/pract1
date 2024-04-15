@@ -1,0 +1,43 @@
+$mypink: #b22e61;
+$myblack: #212529;
+
+.about{
+    margin: auto;
+    width: 75rem;
+    background:url("../../assets/line.svg");
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    h1{
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: $mypink;
+        ::after{
+            font-family: 'Montserrat', sans-serif !important;
+            font-weight: bold;
+            letter-spacing: 13px;
+            font-size: 113px;
+            color: #3030300d;
+            content: "ABOUT";
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            right: 0;
+            top: -29px;
+            bottom: 0;
+        }
+       
+    }
+    .partition{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .p-text{
+            width: 38rem;
+        }
+    }
+    p{
+        font-size: 1.2rem;
+    }
+}

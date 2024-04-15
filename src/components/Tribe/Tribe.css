@@ -1,0 +1,54 @@
+.home-plt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 35rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
+  background-color: #ec428c17;
+}
+
+.home-plt .plt-1 {
+  width: 40rem;
+}
+
+.home-plt .plt-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  row-gap: 1rem;
+}
+
+.home-plt .plt-2 img {
+  width: 35rem;
+}
+
+.home-plt .plt-2 .button-6 {
+  border: 1px solid #b22e61;
+  width: 8rem;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
+.home-plt .plt-2 .button-6:hover {
+  background-color: #b22e61;
+  color: white;
+}
+/*# sourceMappingURL=Tribe.css.map */

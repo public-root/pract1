@@ -1,0 +1,42 @@
+$mypink: #b22e61;
+$myblack: #212529;
+
+.similar-topic{
+    margin-bottom: 2rem;
+    .heading{
+        margin-top: 3rem;
+        font-size: 2rem;
+        font-weight: 600;
+        color: $mypink;
+        text-align: center;
+    }
+    .topics-1,.topics-2{
+        flex-direction: row;
+        display: flex;
+        column-gap: 3rem;
+        margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
+        p{
+            text-align: center;
+            height: 6.5rem;
+            border: 1px solid $myblack;
+            width: 13rem;
+            border-radius: .5rem;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            background: $mypink;
+            color: white;
+            a{
+                font-size: 1.2rem;
+                font-weight: 500;
+                
+            }
+            &:hover{
+                color: $mypink;
+                background: white;
+            }
+        }
+    }
+}
